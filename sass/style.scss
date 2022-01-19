@@ -28,6 +28,7 @@ body {
     overflow: hidden;
 }
 
+
 .container {
     margin: 0 auto;
     padding: 0 15px;
@@ -298,6 +299,10 @@ body {
                     font-size: 20px;
                     color: #E8E8E8;
                 }
+            }
+
+            .shape {
+                display: none;
             }
         }
     }
@@ -669,6 +674,10 @@ footer {
                     h4 {
                         font-size: 36px;
                     }
+                }
+
+                .shape {
+                    display: inherit;
                 }
             }
 

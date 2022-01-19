@@ -257,6 +257,9 @@ body {
   font-size: 20px;
   color: #E8E8E8;
 }
+.steps .container ul .shape {
+  display: none;
+}
 
 .booking {
   background-image: url(../img/section-3-bg.jpg);
@@ -562,6 +565,9 @@ footer .container .footer__social li a .social-icon:hover {
   }
   .steps .container ul li h4 {
     font-size: 36px;
+  }
+  .steps .container ul .shape {
+    display: inherit;
   }
   .steps .container .shape {
     display: flex;
